@@ -53,14 +53,15 @@ const fakeProducts = [
   ]
 
   return (
-    <section>
-      <h2>ListaDeProdutos</h2>
+    <section class="products-container">
       { fakeProducts.map((product) => (
-        <div>
-            <p>{ product.produto }</p>
-            <p>Eletrônico</p>
-            {/* { categoria do produto não foi informada no README do backend } */}
-            <p>{ `R$: ${ product.valor }` }</p>
+        <div class="card">
+            <div>
+                <h4>{ product.produto }</h4>
+                <p>Eletrônico</p>
+                {/* { categoria do produto não foi informada no README do backend } */}
+                <p>{ `R$: ${ product.valor }` }</p>
+            </div>
             <button
                 class="tag-btn"
                 id={ product._id }

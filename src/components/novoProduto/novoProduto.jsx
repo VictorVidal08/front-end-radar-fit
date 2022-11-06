@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useHistory } from 'react-router-dom';
 import { createNewProduct } from '../../service/requests';
+import './novoProduto.css'
 
 function NovoProduto() {
   const [produto, setProduto] = useState('');
@@ -34,28 +35,22 @@ function NovoProduto() {
     history.push('/');
   };
   return (
-    <section>
-      <h2>NovoProduto</h2>
-      <form onSubmit={ (e) => handleSubmit(e) } >
+    <section class="novo-produto-container">
+      <h2>Novo Produto</h2>
+      <form
+        onSubmit={ (e) => handleSubmit(e) }
+      >
+      <div class="form__group field">
       <label htmlFor="produto-input">
           Produto:
           <br />
           <input
-            type="text"
+            placeholder="Produto"
+            class="form__field"
+            type="input"
             id="produto-input"
             value={ produto }
             onChange={ ({ target }) => setProduto(target.value) }
-          />
-        </label>
-        <br />
-        <label htmlFor="descricao-input">
-          Descricao:
-          <br />
-          <input
-            type="text"
-            id="descricao-input"
-            value={ descricao }
-            onChange={ ({ target }) => setDescricao(target.value) }
           />
         </label>
         <br />
@@ -63,12 +58,29 @@ function NovoProduto() {
           Valor:
           <br />
           <input
-            type="text"
+            placeholder="Valor"
+            class="form__field"
+            type="input"
             id="valor-input"
             value={ valor }
             onChange={ ({ target }) => setValor(target.value) }
           />
         </label>
+        <br />
+        <label htmlFor="descricao-input">
+          Descricao:
+          <br />
+          <input
+            placeholder="Descricao"
+            class="form__field"
+            type="input"
+            id="descricao-input"
+            value={ descricao }
+            onChange={ ({ target }) => setDescricao(target.value) }
+          />
+        </label>
+      </div>
+      
       </form>
       <button
         onClick={ () => {

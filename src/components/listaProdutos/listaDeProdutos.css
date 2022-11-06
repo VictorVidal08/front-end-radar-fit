@@ -1,8 +1,27 @@
 .tag-btn {
-    background-color: white;
+    background: #f5f4f4;
     border: none;
     color: black;
-    padding: 1px 1px;
-    font-size: 25px;
-    cursor: pointer; /* Mouse pointer on hover */
+    padding: 10px 10px;
+    font-size: 20px;
+    cursor: pointer;
   }
+
+  .card {
+    width: 100%;
+    height: 10%;
+    border-radius: 1px;
+    background: #f5f4f4;
+    margin-left: 2%;
+    display: flex;
+    justify-content: space-between;
+   }
+
+   .card:hover {
+    background: #c9c8c8;
+   }
+
+   .products-container {
+    width: 50%;
+    height: 90%;
+   }

@@ -17,7 +17,7 @@ function Detalhes() {
           "updated": "1970-01-01T00:00:00.000Z"
         }]
   return (
-    <section>
+    <section class="details-container">
       <h2>Detalhes</h2>
       { fakeProduct.map((product) => (
         <div>

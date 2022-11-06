@@ -9,10 +9,11 @@
     transition: width 0.2s ease-in-out;
     font-weight: 500;
     font-family: inherit;
+    margin-top: 0.5%;
   }
   
   .add-btn:hover {
-    width: 120px;
+    width: 140px;
   }
   
   .add-btn::before,
@@ -93,3 +94,16 @@
     height: 4px;
     top: calc(50% - 2px);
   }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 2%;
+    margin-right: 5%;
+  }
+
+.components-container {
+  display: flex;
+  margin-left: 2%;
+  margin-right: 5%;
+}
