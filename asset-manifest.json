@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/front-end-radar-fit/static/css/main.f361a07d.css",
+    "main.js": "/front-end-radar-fit/static/js/main.e47f9648.js",
+    "static/js/787.ce0bd2be.chunk.js": "/front-end-radar-fit/static/js/787.ce0bd2be.chunk.js",
+    "index.html": "/front-end-radar-fit/index.html",
+    "main.f361a07d.css.map": "/front-end-radar-fit/static/css/main.f361a07d.css.map",
+    "main.e47f9648.js.map": "/front-end-radar-fit/static/js/main.e47f9648.js.map",
+    "787.ce0bd2be.chunk.js.map": "/front-end-radar-fit/static/js/787.ce0bd2be.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f361a07d.css",
+    "static/js/main.e47f9648.js"
+  ]
+}
