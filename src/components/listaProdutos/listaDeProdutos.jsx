@@ -1,6 +1,8 @@
 import React, { useEffect } from 'react';
 import { useHistory } from 'react-router-dom';
 import { getProducts } from '../../service/requests';
+import './listaDeProdutos.css';
+import { BsTagFill } from '@react-icons/all-files/bs/BsTagFill'
 
 function ListaDeProdutos() {
 
@@ -60,12 +62,13 @@ const fakeProducts = [
             {/* { categoria do produto não foi informada no README do backend } */}
             <p>{ `R$: ${ product.valor }` }</p>
             <button
+                class="tag-btn"
                 id={ product._id }
                 onClick={ () => {
                     history.push('/produtos/detalhes');
                   } }
             >
-                Detalhes
+            <BsTagFill />
             </button>
         </div>
       )) }

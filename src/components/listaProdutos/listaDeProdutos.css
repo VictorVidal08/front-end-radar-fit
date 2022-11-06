@@ -1,0 +1,8 @@
+.tag-btn {
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 1px 1px;
+    font-size: 25px;
+    cursor: pointer; /* Mouse pointer on hover */
+  }
