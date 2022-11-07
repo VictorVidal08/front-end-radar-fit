@@ -6,11 +6,14 @@ A aplicação está disponível para visualização no link: https://victorvidal
 
 💀 Por algum motivo que ainda desconheço, o deploy do backend não subiu.
 
-- O botão de adicionar um novo produto está desabilitado até seja digitado todos os campos do input.
+- O botão de adicionar um novo produto está desabilitado até que todos os inputs estejam preenchidos.
 
 # Principais ferramentas utilizadas:
 
-React e css3.
+- React
+- React Router
+- css
+- axios
 
 # Como rodar a aplicação
 

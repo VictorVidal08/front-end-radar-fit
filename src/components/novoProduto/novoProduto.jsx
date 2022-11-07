@@ -92,9 +92,6 @@ function NovoProduto() {
       <button
         type="submit"
         disabled={ enable }
-        onClick={ () => {
-          history.push('/');
-        } }
       >
         Add
       </button>
