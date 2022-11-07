@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/front-end-radar-fit/static/css/main.6b373a9a.css",
-    "main.js": "/front-end-radar-fit/static/js/main.e47f9648.js",
+    "main.js": "/front-end-radar-fit/static/js/main.5fb3bf3b.js",
     "static/js/787.ce0bd2be.chunk.js": "/front-end-radar-fit/static/js/787.ce0bd2be.chunk.js",
     "index.html": "/front-end-radar-fit/index.html",
     "main.6b373a9a.css.map": "/front-end-radar-fit/static/css/main.6b373a9a.css.map",
-    "main.e47f9648.js.map": "/front-end-radar-fit/static/js/main.e47f9648.js.map",
+    "main.5fb3bf3b.js.map": "/front-end-radar-fit/static/js/main.5fb3bf3b.js.map",
     "787.ce0bd2be.chunk.js.map": "/front-end-radar-fit/static/js/787.ce0bd2be.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6b373a9a.css",
-    "static/js/main.e47f9648.js"
+    "static/js/main.5fb3bf3b.js"
   ]
 }
