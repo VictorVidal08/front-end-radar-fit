@@ -1,0 +1,16 @@
+.edit-btn {
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 1px 1px;
+    font-size: 17px;
+    cursor: pointer;
+  }
+
+.details-container {
+    background: #f5f4f4;
+    width: 50%;
+    height: 60%;
+    margin-left: 2%;
+    padding: 2%;
+}
